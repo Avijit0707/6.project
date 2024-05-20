@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+/* .mafiya{
+  margin-top: -40px
+} */
+.mafiya{
+  margin-top: -20px
+}
+
+body{
+  height: 100vh;
+  /* background-color: brown; */
+  position: relative;
+
+  top: 50px;
+}
+:root{
+  height: 100vh;
+}
+
+.contener1 {
+  margin-top: 20px;
+  display: flex;
+  /* width: 97w; */
+  justify-content: space-around;
+}
+nav{
+  width: 100%;
+}
+.sub-contener {
+  display: flex;
+  gap: 20px;
+  color: rgb(87, 87, 87);
+}
+.logo1{
+  font-weight: bolder;
+  font-size: 19px   ;
+  position: relative;
+  left: -100px;
+}
+.username {
+ 
+  height: 30px;
+  width: 80px;
+  border-radius: 10px;
+  background-color: rgb(175, 227, 240);
+  border: 0px solid;
+  color: blue;
+  position: relative;
+  right: -80px;
+}
+.contener2{
+    display: flex;
+    justify-content: space-around;
+}
+.child2{
+ position: relative;
+ top: 100px;
+ width: 35vw;
+}
+.child2 h1{
+   line-height: 50px;
+}
+p{
+    line-height: 22px;
+}
+.book-button{
+    height: 50px;
+    width: 200px;
+    border-radius: 15px;
+background-color: rgb(38, 217, 233);
+border: 0px solid;
+margin-top: 30px;
+}
+img{
+    height:400px ;
+    width: 400px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+.logo-img{
+  height: 100px;
+  width: 100px;
+  border-radius: 15px;
+position: relative;
+top: -30px;
+
+}
+@media (max-width:1215px) {
+    img{
+      width: 360px;
+      
+    }
+    .child2{
+
+      width: 40vw;
+     }
+     .logo {
+      position: static;
+     }
+     .username{
+      position: static;
+     }
+}
+
+
+@media (max-width:1215px) {
+  img{
+    position: relative;
+    left: -10px;
+  }
+  .contener2{
+    position: relative;
+    top: -20px;
+  }
+
+}
+@media (max-width:856px)
+{
+  img{
+  
+    top: 130px;
+  }
+}
+@media (max-width:829px) {
+img{
+  
+  top: 150px;
+}
+.child2{
+  position: relative;
+  top:60px;
+}
+}
+
+@media (max-width:829px) {
+  .mafiya{
+    position: relative;
+    top: -20px;
+    height: 100vh;
+  }
+  img{
+    width:300px ;
+    position: relative;
+    left: -20px;
+  }
+  .child2{
+  position: relative;
+  top: 70px;
+  }
+}
+@media (max-width:768px){
+  .mafiya{
+    width: 100vw;
+    height: 100vh;
+    /* padding-top:100px ; */
+
+  }
+  :root{
+    height: 100vh;
+  }
+  .child2{
+    width: 70vw;
+    position: relative;
+    top: 150px;
+    margin-left: 30px;
+    
+  }
+  img{
+    width:400px ;
+    position: relative;
+    left: -20px;
+  }
+  
+
+  
+}
+
+
+@media (max-width:376px){
+  
+  .contener2{
+    font-weight: normal;
+  }
+  .sub-contener{
+    display: none;
+  }
+ .logo{
+  position: relative;
+  left: -45px;
+ }
+ .username{
+  position: relative;
+  right: -45px;
+ }
+ .contener2{
+  flex-direction: column;
+ }
+ .child2{
+  width: 97vw;
+  position: relative;
+  top: 50px;
+  left: -20px;
+  /* padding-left:5px ;
+  padding-right: 5px; */
+ }
+ .child2 h1{
+  line-height: 30px;
+}
+p{
+  line-height: 22px;
+  width: 40vh;
+}
+.book-button{
+  position: relative;
+  top: -20px;
+}
+img{
+  height: 340px;
+  width: 320px;
+  
+  top: 30px;
+  position: relative;
+  left: 20px;
+  
+}
+
+
+
+}
